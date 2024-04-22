@@ -18,6 +18,9 @@ public class SolgteBilletter {
 
     @Override
     public String toString() {
-        return "Solgte Billetter{}";
+        for (Billet billet : solgteBilletter){
+            System.out.println(billet);
+        }
+        return "";
     }
 }
